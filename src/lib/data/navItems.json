@@ -1,0 +1,26 @@
+[
+    {
+        "link": "/",
+        "text": "About Me"
+    },
+    {
+        "link": "/projects",
+        "text": "Projects"
+    },
+    {
+        "link": "/skills",
+        "text": "Skills"
+    },
+    {
+        "link": "/education",
+        "text": "Education"
+    },
+    {
+        "link": "/experience",
+        "text": "Experience"
+    },
+    {
+        "link": "/certificates",
+        "text": "Certificates"
+    }
+]
