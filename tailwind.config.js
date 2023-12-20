@@ -1,14 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
-  theme: {
-    extend: {
-      fontFamily: {
-        montserrat: ['Montserrat'],
-        opensans: ['Open Sans'],
-      }
+    content: ['./src/**/*.{html,js,svelte,ts}'],
+    theme: {
+        extend: {
+            fontFamily: {
+                montserrat: ['Montserrat'],
+                opensans: ['Open Sans'],
+            }
+        },
     },
-  },
-  plugins: [],
+    plugins: [],
 }
-
