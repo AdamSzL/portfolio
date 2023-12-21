@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "course": "Kotlin Core",
+        "link": "https://hyperskill.org/certificates/ee012665-c2c5-4a7a-a261-7309a74c5863.pdf",
+        "issuedBy": "Hyperskill",
+        "icon": "/images/hyperskill.png",
+        "iconWidth": 100,
+        "issuedOn": "Aug. 2023",
+        "embedLink": "/certificates/kotlin_core.pdf",
+        "skills": "kotlin"
+    },
+    {
+        "id": 2,
+        "course": "CS50's Web Programming with Python and JavaScript",
+        "link": "https://certificates.cs50.io/9eb852f8-87fb-40a1-9b1b-ed507161a114.png?size=letter",
+        "issuedBy": "CS50",
+        "icon": "/images/cs50.jpg",
+        "iconWidth": 100,
+        "issuedOn": "June 2023",
+        "embedLink": "/certificates/cs50w.pdf",
+        "skills": "html,css,bootstrap,py,javascript,django,git"
+    },
+    {
+        "id": 3,
+        "course": "Computer Science for Web Programming",
+        "link": "https://credentials.edx.org/credentials/08a36b2a2f6d489d93bc2777137c415b/",
+        "issuedBy": "edX",
+        "icon": "/images/edx.jpg",
+        "iconWidth": 100,
+        "issuedOn": "June 2023",
+        "embedLink": "/certificates/computer_science_for_web_programming.pdf",
+        "skills": "html,css,javascript,py"
+    },
+    {
+        "id": 4,
+        "course": "The Ultimate Docker Course",
+        "link": "https://szlosarczyk.dev/certificates/the-ultimate-docker-course.pdf",
+        "issuedBy": "Code With Mosh",
+        "icon": "/images/code_with_mosh.jpg",
+        "iconWidth": 100,
+        "issuedOn": "Aug. 2022",
+        "embedLink": "/certificates/the_ultimate_docker_course.pdf",
+        "skills": "docker,kubernetes,linux"
+    },
+    {
+        "id": 5,
+        "course": "CS50's Introduction to Computer Science",
+        "link": "https://certificates.cs50.io/f8d5ef8a-f5d1-45e5-bbc9-9db78ab88a9a.png?size=letter",
+        "issuedBy": "CS50",
+        "icon": "/images/cs50.jpg",
+        "iconWidth": 100,
+        "issuedOn": "Aug. 2021",
+        "embedLink": "/certificates/cs50.pdf",
+        "skills": "c,html,css,py,javascript,flask,sqlite"
+    },
+    {
+        "id": 6,
+        "course": "The Ultimate Git Course",
+        "link": "https://szlosarczyk.dev/certificates/the-ultimate-git-course.pdf",
+        "issuedBy": "Code With Mosh",
+        "icon": "/images/code_with_mosh.jpg",
+        "iconWidth": 100,
+        "issuedOn": "July 2021",
+        "embedLink": "/certificates/the_ultimate_git_course.pdf",
+        "skills": "git,github"
+    },
+    {
+        "id": 7,
+        "course": "Using Python for Research",
+        "link": "https://courses.edx.org/certificates/74ea128a018f44f0b0dfaaa88e2b6779",
+        "issuedBy": "HarvardX",
+        "icon": "/images/harvardx.jpg",
+        "iconWidth": 150,
+        "issuedOn": "Jan. 2021",
+        "embedLink": "/certificates/using_python_for_research.pdf",
+        "skills": "py,"
+    }
+]

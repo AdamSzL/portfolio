@@ -1,13 +1,13 @@
 <script lang="ts">
-    import MailIcon from './icons/MailIcon.svelte';
-    import GitHubIcon from './icons/GitHubIcon.svelte';
-	import LinkedinIcon from './icons/LinkedinIcon.svelte';
-	import FacebookIcon from './icons/FacebookIcon.svelte';
-	import GoogleIcon from './icons/GoogleIcon.svelte';
+    import MailIcon from '../icons/MailIcon.svelte';
+    import GitHubIcon from '../icons/GitHubIcon.svelte';
+	import LinkedinIcon from '../icons/LinkedinIcon.svelte';
+	import FacebookIcon from '../icons/FacebookIcon.svelte';
+	import GoogleIcon from '../icons/GoogleIcon.svelte';
 </script>
 
-<footer class="flex flex-row justify-between px-10 py-3 font-opensans text-white bg-zinc-800">
-    <div class="flex flex-col gap-1">
+<footer class="flex flex-row justify-between px-10 py-10 font-opensans text-white bg-zinc-800">
+    <div class="flex flex-col gap-2">
         <p class="text-2xl">Contact</p>
         <a class="flex flex-row items-center gap-2" href="mailto:adam@szlosarczyk.dev">
             <MailIcon />

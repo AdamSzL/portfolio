@@ -4,7 +4,9 @@
 </script>
 
 <header class="w-full flex items-center justify-between px-10 py-3 font-opensans">
-    <p class="font-opensans text-2xl">Adam Szlósarczyk</p>
+    <a href="/">
+        <p class="font-opensans text-3xl">Adam Szlósarczyk</p>
+    </a>
     <nav>
         <ul class="flex flex-row gap-6">
             {#each navItems as navItem}

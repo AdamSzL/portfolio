@@ -1,14 +1,14 @@
 <script lang="ts">
     import '../app.css';
-    import Navbar from '$lib/components/Navbar.svelte';
-    import Footer from '$lib/components/Footer.svelte';
+    import Navbar from '$lib/components/layout/Navbar.svelte';
+    import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
-<div class="container-fluid">
+<div class="flex flex-col min-h-screen">
 
     <Navbar />
     
-    <main>
+    <main class="flex flex-1 font-opensans">
         <slot />
     </main>
 
