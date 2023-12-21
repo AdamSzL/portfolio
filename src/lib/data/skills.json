@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Kotlin",
+        "level": "EXPERT",
+        "icon": "kotlin"
+    },
+    {
+        "name": "Android",
+        "level": "EXPERT",
+        "icon": "androidstudio"
+    },
+    {
+        "name": "Git",
+        "level": "ADVANCED",
+        "icon": "git"
+    },
+    {
+        "name": "GitHub",
+        "level": "ADVANCED",
+        "icon": "github"
+    },
+    {
+        "name": "Svelte",
+        "level": "ADVANCED",
+        "icon": "svelte"
+    },
+    {
+        "name": "React",
+        "level": "ADVANCED",
+        "icon": "react"
+    },
+    {
+        "name": "HTML",
+        "level": "ADVANCED",
+        "icon": "html"
+    },
+    {
+        "name": "CSS",
+        "level": "ADVANCED",
+        "icon": "css"
+    },
+    {
+        "name": "JavaScript",
+        "level": "ADVANCED",
+        "icon": "js"
+    },
+    {
+        "name": "TypeScript",
+        "level": "ADVANCED",
+        "icon": "ts"
+    },
+    {
+        "name": "Firebase",
+        "level": "INTERMEDIATE",
+        "icon": "firebase"
+    },
+    {
+        "name": "Python",
+        "level": "INTERMEDIATE",
+        "icon": "py"
+    },
+    {
+        "name": "C",
+        "level": "INTERMEDIATE",
+        "icon": "c"
+    },
+    {
+        "name": "C++",
+        "level": "INTERMEDIATE",
+        "icon": "cpp"
+    },
+    {
+        "name": "Java",
+        "level": "INTERMEDIATE",
+        "icon": "java"
+    },
+    {
+        "name": "Linux",
+        "level": "INTERMEDIATE",
+        "icon": "linux"
+    },
+    {
+        "name": "Vue",
+        "level": "INTERMEDIATE",
+        "icon": "vue"
+    },
+    {
+        "name": "Django",
+        "level": "INTERMEDIATE",
+        "icon": "django"
+    },
+    {
+        "name": "Tailwind CSS",
+        "level": "INTERMEDIATE",
+        "icon": "tailwind"
+    },
+    {
+        "name": "MySQL",
+        "level": "INTERMEDIATE",
+        "icon": "mysql"
+    },
+    {
+        "name": "SQLite",
+        "level": "INTERMEDIATE",
+        "icon": "sqlite"
+    },
+    {
+        "name": "Google Cloud Platform",
+        "level": "INTERMEDIATE",
+        "icon": "gcp"
+    },
+    {
+        "name": "Docker",
+        "level": "BEGINNER",
+        "icon": "docker"
+    },
+    {
+        "name": "Dart",
+        "level": "BEGINNER",
+        "icon": "dart"
+    },
+    {
+        "name": "Flutter",
+        "level": "BEGINNER",
+        "icon": "flutter"
+    }
+]

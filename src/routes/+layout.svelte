@@ -4,11 +4,11 @@
     import Footer from '$lib/components/layout/Footer.svelte';
 </script>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex flex-col min-h-screen font-montserrat">
 
     <Navbar />
     
-    <main class="flex flex-1 font-opensans">
+    <main class="flex flex-1 mt-16">
         <slot />
     </main>
 

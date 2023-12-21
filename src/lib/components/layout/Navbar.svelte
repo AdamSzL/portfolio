@@ -3,9 +3,9 @@
     import navItems from '$lib/data/navItems.json';
 </script>
 
-<header class="w-full flex items-center justify-between px-10 py-3 font-opensans">
+<header class="w-full h-16 bg-white fixed flex items-center justify-between px-10 py-3 border-b-1">
     <a href="/">
-        <p class="font-opensans text-3xl">Adam Szlósarczyk</p>
+        <p class=" font-bold text-3xl">Adam Szlósarczyk</p>
     </a>
     <nav>
         <ul class="flex flex-row gap-6">
