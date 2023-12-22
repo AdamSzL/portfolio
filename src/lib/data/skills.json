@@ -5,9 +5,14 @@
         "icon": "kotlin"
     },
     {
-        "name": "Android",
+        "name": "Android Studio",
         "level": "EXPERT",
         "icon": "androidstudio"
+    },
+    {
+        "name": "Jetpack Compose",
+        "level": "EXPERT",
+        "icon": "jetpackcompose"
     },
     {
         "name": "Git",

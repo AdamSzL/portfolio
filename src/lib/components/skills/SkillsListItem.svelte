@@ -9,7 +9,11 @@
 <div class="flex flex-row justify-between border-b-1 py-5 w-full not-visible {intersecting && 'visible'}">
     <div class="flex flex-row items-center gap-5">
         <a href="https://skillicons.dev">
-            <img width="75" src="https://skillicons.dev/icons?i={skill.icon}" alt="{skill.name}" />
+            {#if skill.name === 'Jetpack Compose'}
+                <img width="75" src="images/jetpack_compose.png" alt={skill.name} />
+            {:else}
+                <img width="75" src="https://skillicons.dev/icons?i={skill.icon}" alt={skill.name} />
+            {/if}
         </a>
         <p class="font-bold text-xl">{skill.name}</p>
     </div>

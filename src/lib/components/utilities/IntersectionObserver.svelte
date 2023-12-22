@@ -3,6 +3,7 @@
 
 	export let once = true;
     export let top = 50;
+	export let snappingEnabled: boolean = false;
 
 	let intersecting = false;
 	let container: HTMLDivElement;
@@ -43,6 +44,6 @@
 	});
 </script>
 
-<div bind:this={container}>
+<div class={snappingEnabled ? "snap-start" : ""} bind:this={container}>
 	<slot {intersecting}></slot>
 </div>

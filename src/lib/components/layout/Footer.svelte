@@ -4,9 +4,11 @@
 	import LinkedinIcon from '../icons/LinkedinIcon.svelte';
 	import FacebookIcon from '../icons/FacebookIcon.svelte';
 	import GoogleIcon from '../icons/GoogleIcon.svelte';
+
+    export let snappingEnabled: boolean;
 </script>
 
-<footer class="flex flex-row justify-between px-10 py-7 text-white bg-zinc-800">
+<footer class="flex flex-row justify-between px-10 py-7 text-white bg-zinc-800 {snappingEnabled && 'snap-y snap-end'}">
     <div class="flex flex-col gap-2">
         <p class="text-2xl">Contact</p>
         <a class="flex flex-row items-center gap-2" href="mailto:adam@szlosarczyk.dev">
