@@ -2,6 +2,7 @@
     import type { KnowledgeLevel } from '$lib/model/Skill';
 
     export let knowledgeLevel: KnowledgeLevel;
+    export let shouldRunAnimation: boolean;
 
     const colors = {
         'BEGINNER': ['bg-green-500', 'white', 'white', 'white'],
@@ -17,7 +18,7 @@
     <div class="flex flex-row gap-1">
         {#each bgColors as bgColor, index}
             <div class="w-24 h-5 border-1">
-                <div class="w-0 bar-animation bar-animation-{index + 1} h-full {bgColor}"></div>
+                <div class="w-0 {shouldRunAnimation && `bar-animation bar-animation-${index + 1}`} h-full {bgColor}"></div>
             </div>
         {/each}
     </div>
@@ -42,18 +43,18 @@
     }
 
     .bar-animation-1 {
-        animation-delay: 0s;
+        animation-delay: 0.5s;
     }
     
     .bar-animation-2 {
-        animation-delay: 0.5s;
-    }
-
-    .bar-animation-3 {
         animation-delay: 1s;
     }
 
-    .bar-animation-4 {
+    .bar-animation-3 {
         animation-delay: 1.5s;
+    }
+
+    .bar-animation-4 {
+        animation-delay: 2s;
     }
 </style>

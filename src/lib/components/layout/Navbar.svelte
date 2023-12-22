@@ -3,7 +3,7 @@
     import navItems from '$lib/data/navItems.json';
 </script>
 
-<header class="w-full h-16 bg-white fixed flex items-center justify-between px-10 py-3 border-b-1">
+<header class="w-full h-16 bg-white fixed z-50 flex items-center justify-between px-10 py-3 border-b-1">
     <a href="/">
         <p class=" font-bold text-3xl">Adam Szlósarczyk</p>
     </a>
