@@ -17,7 +17,7 @@
                     {text}
                 </p>
             {:else}
-                <p class="text-4xl text-center not-visible {intersecting && 'visible'}">
+                <p class="m-auto text-4xl w-1/4 text-center not-visible {intersecting && 'visible'}">
                     {text}
                 </p>
             {/if}
@@ -29,7 +29,7 @@
 <style>
     .not-visible {
         opacity: 0;
-        transition: all 5s;
+        transition: all 2s;
     }
 
     .visible {

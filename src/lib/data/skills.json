@@ -85,6 +85,11 @@
         "icon": "linux"
     },
     {
+        "name": "Vim",
+        "level": "INTERMEDIATE",
+        "icon": "vim"
+    },
+    {
         "name": "Vue",
         "level": "INTERMEDIATE",
         "icon": "vue"
