@@ -8,9 +8,12 @@
 </script>
 
 <div class="w-full flex flex-col items-center justify-center gap-5">
-    {#each paragraphsData as paragraphData}
+    {#each paragraphsData as paragraphData, index}
         <IntersectionObserver snappingEnabled={true} let:intersecting top={50}>
-            <Paragraph intersecting={intersecting} paragraphData={paragraphData} />
+            <Paragraph 
+                intersecting={intersecting} 
+                paragraphData={paragraphData} 
+                shouldIncludeScrollDownIcon={index !== paragraphsData.length - 1} />
         </IntersectionObserver>
     {/each}
 </div>

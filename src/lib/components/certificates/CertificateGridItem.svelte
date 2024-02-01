@@ -4,7 +4,7 @@
     export let certificate: Certificate;
 </script>
 
-<div class="flex flex-col grid-item items-center justify-between rounded-sm aspect-square shadow-2xl">
+<div class="flex flex-col grid-item items-center justify-between rounded-sm aspect-square shadow-2xl animate-fade-in">
     <div class="flex flex-col flex-1 justify-between items-center gap-3 p-3">
         <div class="text-center">
             <a href="/certificates/{certificate.id}">

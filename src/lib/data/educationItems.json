@@ -1,0 +1,20 @@
+[
+    {
+        "name_pl": "Zespół Szkół Łączności w Krakowie", 
+        "name_en": "Upper Secondary School of Communications",
+        "specialty": "Technik programista (Programming Technician)",
+        "from": "Sept. 2019",
+        "to": "May 2023",
+        "logo": "/images/zsl.png",
+        "link": "https://tl.krakow.pl/"
+    },
+    {
+        "name_pl": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie", 
+        "name_en": "AGH University of Science and Technology",
+        "specialty": "Informatyka i Systemy Inteligentne (Computer Science and Intelligent Systems)",
+        "from": "Oct. 2023",
+        "to": "now",
+        "logo": "/images/agh.png",
+        "link": "https://www.agh.edu.pl/"
+    }
+]

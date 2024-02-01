@@ -6,6 +6,7 @@
 	import LinkedinIcon from '../icons/LinkedinIcon.svelte';
 	import FacebookIcon from '../icons/FacebookIcon.svelte';
 	import GoogleIcon from '../icons/GoogleIcon.svelte';
+    import { page } from '$app/stores';
 
     const mail = 'adam@szlosarczyk.dev';
     const copyMailHint = 'Click to copy the e-mail';
@@ -15,9 +16,9 @@
     }
 </script>
 
-<header class="w-full h-16 bg-white fixed z-50 flex items-center justify-between px-10 py-3 border-b-1">
+<header class="w-full h-16 bg-white fixed z-50 flex items-center justify-between px-3 lg:px-10 py-3 border-b-1">
     <div class="flex flex-row gap-10 items-center">
-        <a href="/">
+        <a class="hidden xl:inline-block" href="/">
             <p class="font-bold text-3xl">Adam Szlósarczyk</p>
         </a>
         <div class="flex flex-row gap-5">
@@ -33,7 +34,7 @@
     <nav>
         <ul class="flex flex-row gap-6">
             {#each navItems as navItem}
-                <NavbarItem link={navItem.link} text={navItem.text} />
+                <NavbarItem active={$page.url.pathname === navItem.link} link={navItem.link} text={navItem.text} />
             {/each}
         </ul>
     </nav>

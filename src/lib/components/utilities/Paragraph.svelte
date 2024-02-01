@@ -5,11 +5,12 @@
 
     export let paragraphData: ParagraphData;
     export let intersecting: boolean;
+    export let shouldIncludeScrollDownIcon: boolean;
 
     let animationClasses = ['animate-typewriter-instant', 'animate-typewriter-delayed'];
 </script>
 
-<div class="h-[calc(100vh-4rem)] flex flex-col items-center justify-center gap-5 p-20 relative">
+<div class="h-[calc(100vh-4rem)] flex flex-col items-center justify-center gap-5 p-10 relative">
     {#each paragraphData.texts as text, index}
         <div>
             {#if paragraphData.animation === TEXT_ANIMATION.TYPEWRITER }
@@ -17,13 +18,15 @@
                     {text}
                 </p>
             {:else}
-                <p class="m-auto text-4xl w-1/4 text-center not-visible {intersecting && 'visible'}">
+                <p class="m-auto text-3xl xl:text-4xl w-4/4 lg:w-3/4 xl:w-2/4 text-center not-visible {intersecting && 'visible'}">
                     {text}
                 </p>
             {/if}
         </div>
     {/each}
-    <ScrollDownIcon classes="absolute bottom-24" />
+    {#if shouldIncludeScrollDownIcon}
+        <ScrollDownIcon classes="absolute bottom-24" />
+    {/if}
 </div>
 
 <style>
