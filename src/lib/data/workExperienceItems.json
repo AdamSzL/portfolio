@@ -1,0 +1,20 @@
+[
+    {
+        "company": "Millenium Studio",
+        "type": "Internship (Remote)",
+        "from": "Jan. 2021",
+        "to": "Feb. 2021",
+        "description": "Web Developer/SEO",
+        "logo": "/images/milleniumstudio.jpg",
+        "link": "https://milleniumstudio.pl/"
+    },
+    {
+        "company": "FlyingOctopus",
+        "type": "Internship (Remote)",
+        "from": "Oct. 2021",
+        "to": "Nov. 2021",
+        "description": "Website for the FlyingOctopus team in Vue.js",
+        "logo": "/images/flyingoctopus.jpg",
+        "link": "https://flyingoctopus.pl/"
+    }
+]
