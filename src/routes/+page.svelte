@@ -1,9 +1,9 @@
 <script lang="ts">
-    import AboutMe from '$lib/components/utilities/AboutMe.svelte';
+	import Home from '$lib/components/utilities/Home.svelte';
 </script>
 
 <svelte:head>
     <title>Adam Szlósarczyk - Portfolio</title>
 </svelte:head>
 
-<AboutMe />
+<Home />

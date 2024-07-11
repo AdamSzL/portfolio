@@ -7,13 +7,16 @@ export default {
                 montserrat: ['Montserrat'],
                 opensans: ['Open Sans'],
             },
+            colors: {
+                'dark-blue': '#1E3050',
+            },
             borderWidth: {
                 '1': '1px',
             },
             animation: {
                 'typewriter-instant': 'typing 3s steps(40, end), blink_caret .75s step-end infinite',
                 'typewriter-delayed': 'typing 3s steps(40, end) 3s forwards, blink_caret .75s step-end 3s infinite',
-                'fade-in': 'fade_in 2s',
+                'fade-in': 'fade_in 1s',
                 'slide-in': 'slide_in 0.1s linear',
             },
             keyframes: {
@@ -33,6 +36,9 @@ export default {
                     '0%': { transform: 'translate(-300px)' },
                     '100%': { transform: 'translate(0)' }
                 }
+            },
+            maxWidth: {
+                '8xl': '96rem',
             }
         },
     },

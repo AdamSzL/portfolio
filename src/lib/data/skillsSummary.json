@@ -1,0 +1,37 @@
+[
+    {
+        "icons": [
+            {
+                "icon": "images/mobile_app_development.png",
+                "alt": "Mobile App Development"
+            },
+            {
+                "icon": "images/android.png",
+                "alt": "Android"
+            }
+        ],
+        "text": "I'm Adam, a Passionate Android developer on a mission to create intuitive and innovative mobile experciences. I have been exploring the world of Android for the last couple of years. Having switched from Views and Java to Kotlin and Jetpack Compose, I absolutely love the developer experience the latter provides. Currently seeking new opportunities to contribute my skills to exiting projects."
+    },
+    {
+        "icons": [
+            {
+                "icon": "images/languages.png",
+                "alt": "Languages"
+            }
+        ],
+        "text": "Born in Poland, I am a native Polish speaker and possess a B2 level proficiency in English."
+    },
+    {
+        "icons": [
+            {
+                "icon": "images/people.png",
+                "alt": "People"
+            },
+            {
+                "icon": "images/achievements.png",
+                "alt": "Achievements"
+            }
+        ],
+        "text": "Beyond programming, I took part in esports tournaments, and won a few of them, which I think not only demonstrates my passion for gaming but also showcases my ability to excel in high-pressure environments, effectively collaborate with other people and think strategically."
+    }
+]

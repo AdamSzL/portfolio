@@ -1,137 +1,62 @@
 [
     {
         "name": "Kotlin",
-        "level": "EXPERT",
+        "level": 85,
         "icon": "kotlin"
     },
     {
-        "name": "Android Studio",
-        "level": "EXPERT",
+        "name": "Android Studio & Android SDK",
+        "level": 75,
         "icon": "androidstudio"
     },
     {
         "name": "Jetpack Compose",
-        "level": "EXPERT",
-        "icon": "jetpackcompose"
+        "level": 75,
+        "icon": "jetpack_compose"
     },
     {
-        "name": "Git",
-        "level": "ADVANCED",
-        "icon": "git"
-    },
-    {
-        "name": "GitHub",
-        "level": "ADVANCED",
+        "name": "Git & GitHub",
+        "level": 70,
         "icon": "github"
     },
     {
-        "name": "Svelte",
-        "level": "ADVANCED",
-        "icon": "svelte"
+        "name": "Gradle",
+        "level": 60,
+        "icon": "gradle"
     },
     {
-        "name": "React",
-        "level": "ADVANCED",
-        "icon": "react"
+        "name": "Material Design",
+        "level": 60,
+        "icon": "material_design"
     },
     {
-        "name": "HTML",
-        "level": "ADVANCED",
-        "icon": "html"
-    },
-    {
-        "name": "CSS",
-        "level": "ADVANCED",
-        "icon": "css"
-    },
-    {
-        "name": "JavaScript",
-        "level": "ADVANCED",
-        "icon": "js"
-    },
-    {
-        "name": "TypeScript",
-        "level": "ADVANCED",
-        "icon": "ts"
+        "name": "SQLite",
+        "level": 50,
+        "icon": "sqlite"
     },
     {
         "name": "Firebase",
-        "level": "INTERMEDIATE",
+        "level": 45,
         "icon": "firebase"
     },
     {
-        "name": "Python",
-        "level": "INTERMEDIATE",
-        "icon": "py"
-    },
-    {
-        "name": "C",
-        "level": "INTERMEDIATE",
-        "icon": "c"
-    },
-    {
-        "name": "C++",
-        "level": "INTERMEDIATE",
-        "icon": "cpp"
+        "name": "XML",
+        "level": 40,
+        "icon": "xml"
     },
     {
         "name": "Java",
-        "level": "INTERMEDIATE",
+        "level": 30,
         "icon": "java"
     },
     {
         "name": "Linux",
-        "level": "INTERMEDIATE",
+        "level": 25,
         "icon": "linux"
     },
     {
-        "name": "Vim",
-        "level": "INTERMEDIATE",
-        "icon": "vim"
-    },
-    {
-        "name": "Vue",
-        "level": "INTERMEDIATE",
-        "icon": "vue"
-    },
-    {
-        "name": "Django",
-        "level": "INTERMEDIATE",
-        "icon": "django"
-    },
-    {
-        "name": "Tailwind CSS",
-        "level": "INTERMEDIATE",
-        "icon": "tailwind"
-    },
-    {
-        "name": "MySQL",
-        "level": "INTERMEDIATE",
-        "icon": "mysql"
-    },
-    {
-        "name": "SQLite",
-        "level": "INTERMEDIATE",
-        "icon": "sqlite"
-    },
-    {
-        "name": "Google Cloud Platform",
-        "level": "INTERMEDIATE",
-        "icon": "gcp"
-    },
-    {
-        "name": "Docker",
-        "level": "BEGINNER",
-        "icon": "docker"
-    },
-    {
-        "name": "Dart",
-        "level": "BEGINNER",
-        "icon": "dart"
-    },
-    {
         "name": "Flutter",
-        "level": "BEGINNER",
+        "level": 15,
         "icon": "flutter"
     }
 ]

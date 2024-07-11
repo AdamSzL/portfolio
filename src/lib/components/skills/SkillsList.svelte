@@ -2,15 +2,12 @@
     import skills from '$lib/data/skills.json';
 	import SkillsListItem from './SkillsListItem.svelte';
     import type { Skill } from '$lib/model/Skill';
-    import IntersectionObserver from '../utilities/IntersectionObserver.svelte';
 
     const skillsList = skills as Skill[];
 </script>
 
-<div class="flex flex-col w-full">
+<div class="flex flex-col flex-1 max-w-4xl">
     {#each skillsList as skill}
-        <IntersectionObserver let:intersecting top={50}>
-            <SkillsListItem intersecting={intersecting} skill={skill} />
-        </IntersectionObserver>
+        <SkillsListItem skill={skill} />
     {/each}
 </div>
