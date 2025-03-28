@@ -7,9 +7,9 @@
     <title>Skills</title>
 </svelte:head>
 
-<div class="flex flex-col w-full items-center gap-10 px-10 py-10 animate-fade-in">
-    <p class="text-2xl">My Skills</p>
-    <div class="flex flex-row justify-center w-full px-5 gap-16">
+<div class="outer-container animate-fade-in mb-20">
+    <p class="text-3xl font-bold">My Skills</p>
+    <div class="flex flex-col xl:flex-row justify-center w-full 2xl:w-5/6 px-10 gap-16">
         <SkillsSummary />
         <SkillsList />
     </div>

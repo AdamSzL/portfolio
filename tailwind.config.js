@@ -39,6 +39,9 @@ export default {
             },
             maxWidth: {
                 '8xl': '96rem',
+            },
+            screens: {
+                '3xl': '1800px'
             }
         },
     },

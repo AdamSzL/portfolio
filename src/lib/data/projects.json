@@ -1,0 +1,59 @@
+[
+    {
+        "section": "Jetpack Compose Projects",
+        "projects": [
+            {
+                "title": "Compose Weather App",
+                "dates": "Feb. 2025 – Present",
+                "description": "Android app displaying current weather and forecasts for different locations.",
+                "tech": ["Kotlin", "Jetpack Compose", "Koin", "Ktor", "Room", "Maps SDK for Android", "Location API"],
+                "github": "https://github.com/AdamSzL/compose-weather-app",
+                "finished": false
+            },
+            {
+                "title": "Compose Currency Converter App",
+                "dates": "Oct. 2023 – Apr. 2024",
+                "description": "Responsive Android app that displays exchange rates, historical charts, and personalized currency watchlists.",
+                "tech": ["Kotlin", "Jetpack Compose", "Retrofit", "Dagger/Hilt", "DataStore", "WorkManager", "Notifications"],
+                "github": "https://github.com/AdamSzL/CurrencyConverterApp",
+                "finished": true
+            }
+        ]
+    },
+    {
+        "section": "Web Projects",
+        "projects": [
+            {
+                "title": "Mayhem in Monsterland – web game",
+                "dates": "Apr. 2022 – Jun. 2022",
+                "description": "Solo-built browser clone of the classic Commodore 64 platformer using TypeScript and custom game logic.",
+                "tech": ["TypeScript", "Canvas", "Webpack"],
+                "github": "https://github.com/AdamSzL/mayhem-in-monsterland",
+                "demo": "https://szlosarczyk.dev/projects/mayhem-in-monsterland",
+                "finished": true
+            }
+        ]
+    },
+    {
+        "section": "Early Android Projects (Java/XML)",
+        "description": "These projects were created at the beginning of my programming journey, using traditional Views and Java.",
+        "projects": [
+            {
+                "title": "TicTacToe App",
+                "dates": "2022",
+                "description": "A classic Tic-Tac-Toe game for Android with two gameplay modes: local two-player and online multiplayer using Firebase Realtime Database.",
+                "tech": ["Java", "XML", "Android Views", "Firebase Realtime Database"],
+                "github": "https://github.com/AdamSzL/TicTacToe",
+                "finished": true
+            },
+            {
+                "title": "Clock App",
+                "dates": "2022",
+                "description": "A multi-functional Android clock application that allows users to create alarms, set timers, and use a stopwatch with lap functionality.",
+                "tech": ["Java", "XML", "Android Views", "Alarm Management", "Room"],
+                "github": "https://github.com/AdamSzL/ClockApp",
+                "finished": true
+            }
+        ]
+    }
+]

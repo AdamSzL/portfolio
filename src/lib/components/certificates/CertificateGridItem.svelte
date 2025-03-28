@@ -8,7 +8,7 @@
     <div class="flex flex-col flex-1 justify-between items-center gap-3 p-3">
         <div class="text-center">
             <a href="/certificates/{certificate.id}">
-                <p class="text-2xl font-bold">{certificate.course}</p>
+                <p class="text-2xl font-semibold">{certificate.course}</p>
             </a>
             <p>{certificate.issuedBy}</p>
         </div>

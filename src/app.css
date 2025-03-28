@@ -25,6 +25,15 @@
     }
 }
 
+@layer utilities {
+    .outer-container {
+        @apply flex flex-col w-full items-center gap-5 py-10
+    }
+    .content-container {
+        @apply flex flex-col items-center w-full xl:w-5/6 px-10 py-5 gap-5
+    }
+}
+
 * {
     margin: 0;
     padding: 0;

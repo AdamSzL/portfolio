@@ -14,6 +14,6 @@
             <p class="text-lg font-bold">{educationItem.name_en}</p>
             <p class="mt-1">{educationItem.specialty}</p>
         </div>
-        <p class="text-right">{educationItem.from} - {educationItem.to}</p>
+        <p class="text-right mt-5">{educationItem.from} - {educationItem.to}</p>
     </div>
 </div>

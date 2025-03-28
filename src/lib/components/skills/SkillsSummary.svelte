@@ -3,8 +3,8 @@
     import skillsSummary from '$lib/data/skillsSummary.json';
 </script>
 
-<div class="flex flex-col items-start gap-10 max-w-4xl">
+<div class="flex flex-col basis-1/2 items-start gap-10">
     {#each skillsSummary as skillSummary}
-        <SkillsSummaryItem icons={skillSummary.icons} text={skillSummary.text} />
+        <SkillsSummaryItem icons={skillSummary.icons} section={skillSummary.section} text={skillSummary.text} />
     {/each}
 </div>

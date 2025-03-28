@@ -14,6 +14,6 @@
             <p class="text-md">{workExperienceItem.description}</p>
             <p class="mt-1">{workExperienceItem.type}</p>
         </div>
-        <p class="text-right">{workExperienceItem.from} - {workExperienceItem.to}</p>
+        <p class="text-right mt-5">{workExperienceItem.from} - {workExperienceItem.to}</p>
     </div>
 </div>

@@ -2,6 +2,7 @@
     import { SkillIconData } from '$lib/model/SkillIconData';
 
     export let icons: SkillIconData[]
+    export let section: string
     export let text: string
 
 </script>
@@ -13,4 +14,12 @@
         {/each}
     </div>
     <div>{text}</div>
+    {#if section === 'achievements' }
+        <p>
+            Want to know more? Check out my player profile on
+            <a class="text-blue-600 hover:underline" href="https://liquipedia.net/worldoftanks/Panzfury" target="_blank" rel="noopener">
+                Liquipedia
+            </a>
+        </p>
+    {/if}
 </div>

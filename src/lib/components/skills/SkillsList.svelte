@@ -6,7 +6,7 @@
     const skillsList = skills as Skill[];
 </script>
 
-<div class="flex flex-col flex-1 max-w-4xl">
+<div class="flex flex-col basis-1/2">
     {#each skillsList as skill}
         <SkillsListItem skill={skill} />
     {/each}

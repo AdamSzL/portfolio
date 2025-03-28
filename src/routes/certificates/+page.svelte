@@ -6,7 +6,7 @@
     <title>Certificates</title>
 </svelte:head>
 
-<div class="flex flex-col items-center gap-5 px-10 py-10">
-    <p class="text-2xl">Courses And Certificates</p>
+<div class="outer-container">
+    <p class="text-3xl font-bold">Courses And Certificates</p>
     <CertificatesGrid />
 </div>

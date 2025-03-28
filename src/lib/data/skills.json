@@ -5,14 +5,19 @@
         "icon": "kotlin"
     },
     {
-        "name": "Android Studio & Android SDK",
+        "name": "Jetpack Compose",
+        "level": 80,
+        "icon": "jetpack_compose"
+    },
+    {
+        "name": "Android Studio",
         "level": 75,
         "icon": "androidstudio"
     },
     {
-        "name": "Jetpack Compose",
+        "name": "Android SDK",
         "level": 75,
-        "icon": "jetpack_compose"
+        "icon": "androidstudio"
     },
     {
         "name": "Git & GitHub",
