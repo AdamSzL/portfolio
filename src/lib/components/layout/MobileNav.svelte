@@ -51,7 +51,7 @@
 				<a
 				  href={navItem.link}
 				  class="text-sm font-medium px-3 py-2 rounded hover:bg-gray-100 transition"
-				  class:bg-gray-100={$page.url.pathname === navItem.link}
+				  class:bg-gray-100={(navItem.link === "/") ? $page.url.pathname === navItem.link : $page.url.pathname.includes(navItem.link)}
 				  on:click={() => (open = false)}
 				>
 					{navItem.text}

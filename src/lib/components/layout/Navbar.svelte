@@ -17,7 +17,7 @@
     <nav>
         <ul class="flex flex-row gap-6">
             {#each navItems as navItem}
-                <NavbarItem active={$page.url.pathname === navItem.link} link={navItem.link} text={navItem.text} />
+                <NavbarItem active={(navItem.link === "/") ? $page.url.pathname === navItem.link : $page.url.pathname.includes(navItem.link)} link={navItem.link} text={navItem.text} />
             {/each}
         </ul>
     </nav>
