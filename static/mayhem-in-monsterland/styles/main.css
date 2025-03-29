@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html,
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.main {
+    width: 1200px;
+    height: 810px;
+    background-color: black;
+    position: relative;
+}
+
+.map {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.game {
+    position: absolute;
+    top: 648px;
+    left: 30px;
+    filter: hue-rotate(0deg);
+    transform: scale(1.5);
+    transition: left 1s ease-out;
+}
+
+.game.slideIn {
+    left: 370px;
+}
+
+.game.slideOut {
+    left: 30px;
+}
+
+.intro {
+    position: absolute;
+    top: 648px;
+    right: 30px;
+    filter: grayscale(1) opacity(.5);
+    transform: scale(1.5);
+    transition: right 1s ease-out;
+}
+
+.intro.slideIn {
+    right: 370px;
+}
+
+.intro.slideOut {
+    right: 30px;
+}
+
+video {
+    display: none;
+    background-color: black;
+}
+
+.fps-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+}
+
+.play-button {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+}

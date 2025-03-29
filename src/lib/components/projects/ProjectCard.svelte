@@ -9,7 +9,7 @@
 	<div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
 		<h4 class="text-xl font-semibold flex items-center gap-3">
 			{#if projectData.demo}
-				<a href={projectData.demo} target="_blank" rel="noopener" class="text-blue-700 hover:underline">
+				<a href={projectData.demo} rel="noopener" class="text-blue-700 hover:underline">
 					{projectData.title}
 				</a>
 			{:else if projectData.github}

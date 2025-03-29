@@ -29,7 +29,7 @@
                 "description": "Solo-built browser clone of the classic Commodore 64 platformer using TypeScript and custom game logic.",
                 "tech": ["TypeScript", "Canvas", "Webpack"],
                 "github": "https://github.com/AdamSzL/mayhem-in-monsterland",
-                "demo": "https://szlosarczyk.dev/projects/mayhem-in-monsterland",
+                "demo": "/projects/mayhem-in-monsterland",
                 "finished": true
             }
         ]
