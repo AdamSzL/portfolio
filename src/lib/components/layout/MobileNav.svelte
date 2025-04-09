@@ -9,6 +9,7 @@
 
 	const navItems = [
 		{ link: '/', text: 'Home' },
+		{ link: '/skills', text: 'About Me & Skills' },
 		{ link: '/projects', text: 'Projects' },
 		{ link: '/education', text: 'Education' },
 		{ link: '/experience', text: 'Experience' },
